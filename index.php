@@ -44,6 +44,7 @@
       <div class="page-content-php">
         <?php echo '<p>The area is: ? </p>'; ?>
         <?php echo '<p>The perimeter is: ? </p>'; ?>
+        <?php echo '<p>The perimeter is: ? = ' . (5 * 3) . '</p>'; ?>
       </div>
       <!-- Simple Textfield for integers-->
       <form action="answer.php" method="GET">
