@@ -4,7 +4,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta name="description" content="The 'Hello, World!' program, PHP" />
+  <meta name="description" content="The Area & Perimeter Program, in PHP" />
   <meta name="keywords" content="mths, icd2o" />
   <meta name="author" content="domenic dangelo" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -30,7 +30,7 @@
     sizes="16x16"
     href="./favicon-16x16.png" />
   <link rel="manifest" href="./site.webmanifest" />
-  <title>The "Hello, World!" program, PHP</title>
+  <title>The Area & Perimeter Program, in PHP</title>
 </head>
 
 <body>
@@ -38,7 +38,7 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">The "Hello, World!" program, PHP</span>
+        <span class="mdl-layout-title">The Area & Perimeter Program, in PHP</span>
       </div>
     </header>
     <main class="mdl-layout__content">
@@ -46,8 +46,12 @@
         <img src="./images/area_and_perimeter.png" alt="area and perimeter" />
       </div>
       <div class="page-content">
-        <?php echo '<p>The area is: ' (5 * 3) . 'cm² </p>'; ?>
-        <?php echo '<p>The perimeter is: ' (2 * (5 + 3)) . 'cm </p>'; ?>
+        <?php 
+        echo '<p>The area is: '(5 * 3) . 'cm² </p>'; 
+        ?>
+        <?php 
+        echo '<p>The perimeter is: '(2 * (5 + 3)) . 'cm </p>'; 
+        ?>
       </div>
       <br />
       <div class="page-content-answer">
