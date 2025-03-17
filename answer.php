@@ -47,10 +47,10 @@
       </div>
       <div class="page-content">
         <?php 
-        echo '<p>The area is: '(5 * 3) . 'cm² </p>'; 
+        echo '<p>The area is: '(5 * 3) . ' </p>'; 
         ?>
         <?php 
-        echo '<p>The perimeter is: '(2 * (5 + 3)) . 'cm </p>'; 
+        echo '<p>The perimeter is: '(2 * (5 + 3)) . ' </p>'; 
         ?>
       </div>
       <br />
