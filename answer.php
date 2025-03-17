@@ -46,11 +46,9 @@
         <img src="./images/area_and_perimeter.png" alt="area and perimeter" />
       </div>
       <div class="page-content">
-        <?php 
-        echo '<p>The area is: '(5 * 3) . ' </p>'; 
-        ?>
-        <?php 
-        echo '<p>The perimeter is: '(2 * (5 + 3)) . ' </p>'; 
+        <?php echo '<p>The area is:' . (5 * 3) . 'cm²</p>'; ?>
+        <?php
+        echo '<p>The perimeter is: '(2 * (5 + 3)) . 'cm</p>';
         ?>
       </div>
       <br />
